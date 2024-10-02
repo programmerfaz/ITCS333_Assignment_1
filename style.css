@@ -1,0 +1,27 @@
+body{
+    margin:0 auto;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace, Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    width:75%;
+}
+.nav-header{
+    background-color: #D72638;
+    display: flex;
+    color:#F49D37;
+    font-weight: bold;
+}
+.nav-header h2{
+    color: #F49D37;
+    text-decoration: none;
+}
+li:hover{
+    color: #140F2D;
+    cursor:pointer;
+    transition: 0.5s ease-in;
+}
