@@ -3,25 +3,20 @@ body{
     box-sizing: border-box;
     font-family: "Roboto Mono", monospace, Georgia, 'Times New Roman', Times, serif;
 }
-ul{
-    list-style: none;
+.navbar{
+    background-color: #EF2D56; 
+    width:100%; 
+}
+.nav-link{
+    font-weight:900;
+    font-size: 1.3rem;
+}
+.navbar-nav{
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
-    font-size: 1.3rem;
-    width:75%;
 }
-.nav-header{
-    background-color: #D72638;
-    display: flex;
-    color:#F49D37;
-    font-weight: bold;
-}
-.nav-header h2{
-    color: #F49D37;
-    text-decoration: none;
-}
-li:hover{
-    color: #140F2D;
-    cursor:pointer;
-    transition: 0.5s ease-in;
+#search-input{
+    width:10rem;
+    border-radius: 15px;
 }
