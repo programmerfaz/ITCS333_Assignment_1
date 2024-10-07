@@ -17,7 +17,8 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" style="color:white; font-weight:bold; font-size:2.2rem;" href="#">SUNSHINE KINDERGARTEN</a>
+            <a class="navbar-brand" style="color:white; font-weight:bold; font-size:2.2rem;" href="#">SUNSHINE
+                KINDERGARTEN</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,22 +29,134 @@
                         <a class="nav-link text-warning" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-warning" href="#">Schedule</a>
+                        <a class="nav-link text-warning" href="#schedule">Schedule</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-warning" href="#">Photo Gallery</a>
+                        <a class="nav-link text-warning" href="#photo">Photo Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-warning" href="#">Resources</a>
+                        <a class="nav-link text-warning" href="#resources">Resources</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-warning" href="#">Contact</a>
+                        <a class="nav-link text-warning" href="#contact">Contact</a>
                     </li>
                 </ul>
                 <input type="text" class="form-control" id="search-input" placeholder="Search">
             </div>
         </nav>
     </header>
+    <main>
+        <!-- here the media-split-cont class uses css flexbox model which is used to change the flex direction to column when the max width of the screen approaches 760px -->
+        <div class="media mt-4 media-split-cont">
+            <div>
+                <img src="https://placehold.co/600x300" alt="Placeholder" class="align-self-center mr-3 img-center">
+            </div>
+            <div>
+                <div class="media-body">
+                    <h2 class="mt-4 text-center text-danger font-weight-bold text-uppercase">Welcome Shining futures of
+                        our bright beginning!!</h2>
+                    <p class="margin-all font-weight-bold color"">At Sunshine Kindergarten, we believe every child is
+                        unique and full of
+                        potential. Our nurturing
+                        environment encourages creativity, curiosity, and confidence in each little learner. Through
+                        playful activities and hands-on learning, we help children explore the world around them, build
+                        friendships, and develop essential skills that lay the foundation for a lifetime of success. At
+                        Sunshine Kindergarten, we brighten young minds and help them shine!</p>
+                </div>
+            </div>
+        </div>
+        <!-- Schedule for students during the week -->
+        <h1 class="text-center mt-5 text-danger font-weight-bold text-uppercase" id="schedule">Schedule</h1>
+        <section class="ml-2 mt-2 display-content">
+            <div class="display-flex-adjust">
+                <div class="box-days text-center mb-4">
+                    <h3 class="border-bottom text-warning">Sunday</h3>
+                    <p class="py-2 color font-weight-bold">Arts and Craft</p>
+                </div>
+            </div>
+            <div class="display-flex-adjust">
+                <div class="box-days text-center mb-4">
+                    <h3 class="border-bottom text-warning">Monday</h3>
+                    <p class="py-2 color font-weight-bold">Music and Dance</p>
+                </div>
+            </div>
+            <div class="display-flex-adjust">
+                <div class="box-days text-center mb-4">
+                    <h3 class="border-bottom text-warning">Tuesday</h3>
+                    <p class="py-2 color font-weight-bold">Outdoor Activities</p>
+                </div>
+            </div>
+            <div class="display-flex-adjust">
+                <div class="box-days text-center mb-4">
+                    <h3 class="border-bottom text-warning">Wednesday</h3>
+                    <p class="py-2 color font-weight-bold">Story time</p>
+                </div>
+            </div>
+            <div class="display-flex-adjust">
+                <div class="box-days text-center mb-4">
+                    <h3 class="border-bottom text-warning">Thursday</h3>
+                    <p class="py-2 color font-weight-bold">Play time</p>
+                </div>
+            </div>
+        </section>
+        <!-- Photo gallery section -->
+        <h1 class="ml-2 mt-5 mb-4 text-danger font-weight-bold text-uppercase photo-gallery-display" id="photo">Photo
+            Gallery</h1>
+        <div class="photo-gallery-display ml-5 mt-3 mb-4">
+            <div class="card mb-4 mr-4" style="width: 18rem;background-color:#073B4C;">
+                <img src="https://placehold.co/600x400" class="card-img-top" alt="weekly schedule">
+                <div class="card-body">
+                    <h5 class="card-title text-center text-warning text-uppercase">Arts and Craft</h5>
+                    <p class="card-text text-center color">Arts and crafts in kindergarten help kids improve their hand
+                        skills and creativity. They enjoy making things like paintings and crafts while learning to
+                        share and work together.</p>
+                </div>
+            </div>
+            <div class="card mb-4 mr-4" style="width: 18rem;background-color:#073B4C;">
+                <img src="https://placehold.co/600x400" class="card-img-top" alt="weekly schedule">
+                <div class="card-body">
+                    <h5 class="card-title text-center text-warning text-uppercase">Music and Dance</h5>
+                    <p class="card-text text-center color">Music and dance in kindergarten help kids develop rhythm and
+                        coordination. They enjoy singing songs, moving to music, and expressing themselves through
+                        dance. It’s a fun way to build confidence, teamwork, and creativity!</p>
+                </div>
+            </div>
+            <div class="card mb-4 mr-4" style="width: 18rem;background-color:#073B4C;">
+                <img src="https://placehold.co/600x400" class="card-img-top" alt="weekly schedule">
+                <div class="card-body">
+                    <h5 class="card-title text-center text-warning text-uppercase">Outdoor Activities</h5>
+                    <p class="card-text text-center color">Outdoor activities in kindergarten help kids stay active and
+                        healthy. They enjoy running, playing games, and exploring nature, which helps improve their
+                        physical skills and teamwork. It's a fun way to learn, grow, and stay energized!</p>
+                </div>
+            </div>
+            <div class="card mb-4 mr-4" style="width: 18rem;background-color:#073B4C;">
+                <img src="https://placehold.co/600x400" class="card-img-top" alt="weekly schedule">
+                <div class="card-body">
+                    <h5 class="card-title text-center text-warning text-uppercase">Story time</h5>
+                    <p class="card-text text-center color">Story time in kindergarten helps kids develop language and
+                        listening skills. They enjoy hearing exciting tales and using their imagination to picture the
+                        stories. It’s a fun way to spark creativity and a love for reading!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert border-top ml-2 mr-2" role="alert">
+            <h1 class="alert-heading text-danger" id="resources">Resources</h1>
+            <p class="color">At Sunshine Kindergarten, we keep parents involved in their child's learning journey with
+                daily updates on classroom activities and monthly newsletters featuring upcoming events and learning
+                goals.</p>
+            <p class="border-top mb-0 py-2 color">Parents can attend regular meetings to discuss their child's progress
+                and view photos and videos of class activities. We also provide learning resources for home, like
+                worksheets and craft ideas, and share health and safety guidelines to ensure a safe and enjoyable
+                environment for all.</p>
+        </div>
+        <!-- contact section -->
+        <h2 class="text-danger ml-4 border-top" id="contact">CONTACT</h2>
+        <p class="font-weight-bold ml-4" style="font-size: large;">For more information visit our our place at
+            Manama.For some quick queries feel free to contact us on <span class="badge badge-warning">+973
+                34587485</span> </p>
+    </main>
     <!-- Including java script from bootstrap to make nav bar which includes creating a button when some size is reached -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
